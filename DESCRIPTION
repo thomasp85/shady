@@ -15,6 +15,10 @@ Description: Provides the ability to create, compile, and execute shaders from
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+SystemRequirements: 
+    OpenGL,
+    GLEW,
+    GLFW
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 URL: https://github.com/thomasp85/shader
