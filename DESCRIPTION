@@ -1,15 +1,18 @@
 Package: shader
-Title: What the Package Does (One Line, Title Case)
+Title: Compile and Execute Shaders from R
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+    person(given = "Thomas Lin",
+           family = "Pedersen",
+           role = c("cre", "aut"),
+           email = "thomasp85@gmail.com",
+           comment = c(ORCID = "0000-0002-5147-4711"))
+Description: Provides the ability to create, compile, and execute shaders from
+    within R. The main focus is on the GLSL language due to its cross-platform
+    support. The 'shader' package provides native support for passing in R 
+    objects as input and uniforms and render to either a window or to a raster 
+    in a headless manner.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
