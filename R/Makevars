@@ -1,2 +1,2 @@
-PKG_CXXFLAGS = `pkg-config --cflags glfw3 glew`
-PKG_LIBS = `pkg-config --static --libs glfw3 glew`
+PKG_CXXFLAGS = -I. `pkg-config --cflags glew glfw3`
+PKG_LIBS = -L `pkg-config --static --libs glew glfw3`
