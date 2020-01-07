@@ -1,4 +1,4 @@
-# shader
+# shady
 
 **Highly experimental and not really working yet**
 
